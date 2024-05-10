@@ -1,0 +1,143 @@
+
+/*Estilo geral*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    .roboto-thin-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+}
+
+body{
+    background-color: #000F08;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+  
+}
+
+/*estilo do cabeçalho*/
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+display: inline-block;
+transition: .2s;
+}
+
+header a:hover{
+    color: #6803ff;
+    transform:scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+display: inline-block;
+padding: 0 40px;
+}
+
+/*BOTAO DE CONTATO LINKEDIN*/
+button {
+  background-color: #000000;
+  border: 1px solid #0077b5;
+  padding: 5px;
+  position: relative;
+  width: 7.2em;
+  height: 2em;
+  transition: 0.5s;
+  font-size: 17px;
+  border-radius: 0.4em;
+}
+
+button p {
+  position: absolute;
+  top: 0.4em;
+  left: 1.2em;
+  margin: 0;
+  padding: 0;
+  transition: .5s;
+  color: #0077b5;
+}
+
+button svg {
+  position: absolute;
+  top: 0.45em;
+  right: 0.5em;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.5s;
+  height: 1em;
+  fill: #fff
+}
+
+button:hover p {
+  left: 0.6em;
+  color: #fff
+}
+
+button:hover svg {
+  opacity: 1;
+}
+
+button:hover {
+  background-color: #0077b5;
+}
+
+
+
+
+
+    
+/*ESTILO DO TOPO DO SITE*/
+
+section.topo-do-site{
+  padding: 40px 4%;;
+
+}
+
+section.topo-do-site.flex{
+  align-items: center;
+  justify-content: center;
+  gap: 90px ;
+}
+
+.topo-do-site h1{
+  color: #fff;
+  font-size: 38px;
+  line-height: 40px;
+}
+
+section.img-topo-site{
+border-radius: 10px;
+background-color: #6803ff;
+}
+
+ txt-topo-site p{
+color: #fff;
+margin: 40px 0px;
+}
+
