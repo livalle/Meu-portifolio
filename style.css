@@ -27,6 +27,16 @@ body{
   
 }
 
+h2.titulo{
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2.titulo span{
+  color: #6803ff;
+}
+
 /*estilo do cabeçalho*/
 header{
     padding: 40px 4%;
@@ -64,7 +74,7 @@ header .interface .logo img{
   width: 100px;
 }
 
-button {
+  button {
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
   border: 0;
@@ -87,6 +97,7 @@ button {
   white-space: nowrap;
   cursor: pointer;
   transition: all .3s;
+  transform: scale(1.05) ;
  }
  
  button:active,
@@ -141,12 +152,13 @@ background-color: #6803ff;
 
 .topo-do-site .txt-topo-site p{
   color: #fff;
-  width: 300px;
+  width: 500px;
   gap: 90px;
 }
 
 .topo-do-site .img-topo-site img{
-  margin-right: 270px;
+  margin-left: 500px;
+  margin-right: 450px;
   width: 200px;
   border-radius: 40px;
   position: relative;
@@ -160,4 +172,81 @@ background-color: #6803ff;
   100%{
     top: 30px;
   }
+}
+
+/*estilo das especialidades*/
+section.especialidades{
+padding: 40px 4%;
+}
+
+section.especialidades .flex{
+  gap: 60px;
+}
+
+.especialidades .especialidades-box{
+  color: #fff;
+  padding: 40px; 
+  margin-top: 45px;
+  border-radius: 20px;
+  transform: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 30px #ffffff77;
+}
+
+.especialidades .especialidades-box i{
+  font-size:70px ;
+  color: #6803ff;
+}
+
+.especialidades .especialidades-box h3{
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+/*estilo do sobre mim*/
+section.sobre{
+  padding: 40px 4%;
+}
+
+section.sobre .flex{
+  align-items: center;
+  gap: 60px;
+}
+
+.sobre .txt-sobre{
+  color: #fff;
+  }
+
+  .sobre .txt-sobre h2{
+    font-size: 40px;
+line-height: 40px;
+margin-bottom: 30px;
+  }
+
+  .sobre .txt-sobre h2 span{
+    color: #6803ff;
+    display: block;
+  }
+
+.sobre .txt-sobre p{
+  margin: 20px 0;
+  text-align: justify;
+}
+
+/*botoes de contato sobre mim*/
+.sobre .txt-sobre .btn-social button{
+  width: 60px;
+  padding: 30px;
+  height: 60px;
+  border-radius: 90px;
+  border: none;
+  background-color: #6803ff;
+  font-size: 22px;
+  cursor: pointer;
+  margin: 0 05px;
+  transform: scale(1.05)
+
 }
